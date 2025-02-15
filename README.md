@@ -51,27 +51,27 @@
 
 #### _1. Programação Orientada a Objeto (POO)_
 
-Tem como pilar teórico o conceito de **objeto**, ou seja, um sistema orientado a objeto é um conjunto de objetos que representam os seres e coisas, interagindo computacionalmente com as mesmas caracteristicas e comportamentos.
+Tem como pilar teórico o conceito de **objeto**, ou seja, um sistema orientado a objeto é um conjunto de objetos que representam os seres e coisas, interagindo computacionalmente com as mesmas características e comportamentos.
 
-A estrutura computacional que defineo modelo de um objeto, damos o nome de **classe**, e a partir dela cópias são construidas para serem utilizadas para cada objeto que tenha no sistema
+A estrutura computacional que define o modelo de um objeto, damos o nome de **classe**, e a partir dela cópias são construídas para serem utilizadas para cada objeto que tenha no sistema
 
 O principal benefício da utilização da programação por meio de classes é a reutilização do código, pois a cada objeto criado, você não precisa criar sua estrutura novamente.
 
 #### _2. Abstração_
 
-Abstração é a habilidade de concentrar nos aspectos essenciais de um contexto qualquer e mostrar apenas o necessário. Isso permite que trablhemos com objetos de forma mais genérica, focando no que eles representão e não em como funcionam.
+Abstração é a habilidade de concentrar nos aspectos essenciais de um contexto qualquer e mostrar apenas o necessário. Isso permite que tralhemos com objetos de forma mais genérica, focando no que eles representam e não em como funcionam.
 
 #### _3. Classes_
 
-Classes são estrutueas que definem as caracteristicas e comportamentos dos seres ou coisas do mundo real.
+Classes são estruturas que definem as características e comportamentos dos seres ou coisas do mundo real.
 
 Quando implementados em java nas classes, essas características passam a se chamar de atributos, e os comportamentos se transformam em métodos.
 
 Classes possuem basicamente:
 
 1. Atributos.
-   - Definem as caracteristicas que cada objeto de uma classes deve ter.
-2. Comportametos.
+   - Definem as características que cada objeto de uma classes deve ter.
+2. Comportamentos.
    - Definem as ações que cada objeto de uma classe pode executar.
 
 • Definição de classe private / public:
@@ -178,4 +178,4 @@ class Calculadora {
 }
 ```
 
-🔹 O método `soma()` tem duas versões, uma para `int` e outra para `double`.
+🔹 O método `soma()` tem duas versões, uma para `int` e outra para `double`. 
