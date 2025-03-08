@@ -178,4 +178,14 @@ class Calculadora {
 }
 ```
 
-🔹 O método `soma()` tem duas versões, uma para `int` e outra para `double`. 
+🔹 O método `soma()` tem duas versões, uma para `int` e outra para `double`.
+
+## Aula 03 - 19-02-2025 - R
+
+> Falta
+
+## Aula 04 - 21-02-2025 - R
+
+> Falta
+
+## Aula 05 - 26-02-2025 - P
