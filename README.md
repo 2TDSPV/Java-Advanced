@@ -189,3 +189,17 @@ class Calculadora {
 > Falta
 
 ## Aula 05 - 26-02-2025 - P
+
+> Falta
+
+## Aula 06 - 28-02-2025 - P
+
+> Falta
+
+## Aula 07 - 05-03-2025 - P
+
+> Falta
+
+## Aula 08 - 07-03-2025 - P
+
+> Falta
