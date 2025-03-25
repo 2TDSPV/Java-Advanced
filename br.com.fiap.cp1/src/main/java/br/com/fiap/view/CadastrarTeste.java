@@ -1,4 +1,4 @@
-package br.com.fiap;
+package br.com.fiap.view;
 
 import br.com.fiap.dao.FuncionarioDaoImpl;
 import br.com.fiap.entity.*;
@@ -11,7 +11,7 @@ import static br.com.fiap.entity.CargoFuncionario.*;
 
 public class CadastrarTeste {
     public static void main(String[] args) {
-        System.out.println("Teste de persistence!");
+        System.out.println("CREATE");
 
         EntityManagerFactory fabrica = Persistence.createEntityManagerFactory("CLIENTE_ORACLE");
         EntityManager entityManager = fabrica.createEntityManager();

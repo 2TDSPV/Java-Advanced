@@ -182,15 +182,66 @@ class Calculadora {
 
 ## Aula 03 - 19-02-2025 - R
 
-> Falta
+1. Exercício -> Faça um programa em java para uma concessionária, onde ela vende carros, motos e caminhões. Utilize herança.
 
 ## Aula 04 - 21-02-2025 - R
 
-> Falta
+2. Exercício -> Faça um programa em java para um aplicativo de desenho, onde temos uma forma abstrata (cor e método para calcular a areá).
+
+- Deve-se ter o circulo, quadrado, retângulo e triângulo.
+
+3. Execício -> Usando polimorfismo, faça um programa em java para venda de imóveis:
+
+- Crie a classe de imóvel, que possui um endereço e um preço.
+- Crie uma classe NovoMovel, que herda de imóvel, e possui um adicional no preço. crie métodos de acesso e impressão deste valor adicional.
+- Crie uma classe VelhoMovel, que herda de imóvel e possui um desconto no preço crie métodos de acesso e impressão para este desconto.
+
+4. Exercício -> Crie as seguintes classes em java:
+
+- Funcionário
+- Gerente
 
 ## Aula 05 - 26-02-2025 - P
 
-> Falta
+### 🔹 **Operadores em Java**
+
+Os operadores são fundamentais porque eles são usados o tempo todo, desde cálculos simples até lógica complexa dentro de um código. Vamos organizar em categorias:
+
+#### 1️⃣ **Operadores Aritméticos**
+
+Usados para operações matemáticas básicas:
+
+- `+` (adição)
+- `-` (subtração)
+- `*` (multiplicação)
+- `/` (divisão)
+- `%` (módulo – resto da divisão)
+
+#### 2️⃣ **Operadores Relacionais**
+
+Comparação entre valores, resultando sempre em `true` ou `false`:
+
+- `==` (igual)
+- `!=` (diferente)
+- `>` (maior que)
+- `<` (menor que)
+- `>=` (maior ou igual)
+- `<=` (menor ou igual)
+
+#### 3️⃣ **Operadores Lógicos**
+
+Usados para combinar expressões booleanas:
+
+- `&&` (AND - ambas condições precisam ser verdadeiras)
+- `||` (OR - pelo menos uma precisa ser verdadeira)
+- `!` (NOT - inverte um booleano)
+
+#### 4️⃣ **Operadores de Atribuição e Incremento/Decremento**
+
+- `=` (atribuição)
+- `+=, -=, *=, /=` (operadores compostos)
+- `++` (incremento)
+- `--` (decremento)
 
 ## Aula 06 - 28-02-2025 - P
 

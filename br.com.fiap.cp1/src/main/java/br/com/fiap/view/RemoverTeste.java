@@ -1,7 +1,6 @@
 package br.com.fiap.view;
 
 import br.com.fiap.dao.FuncionarioDaoImpl;
-import br.com.fiap.entity.Funcionario;
 import br.com.fiap.entity.Pleno;
 import br.com.fiap.exception.IdNaoEncontradoException;
 
@@ -11,9 +10,9 @@ import javax.persistence.Persistence;
 
 import static br.com.fiap.entity.CargoFuncionario.PLENO;
 
-public class AtualizarTeste {
+public class RemoverTeste {
     public static void main(String[] args) {
-        System.out.println("Teste de persistence!");
+        System.out.println("DELETE");
 
         EntityManagerFactory fabrica = Persistence.createEntityManagerFactory("CLIENTE_ORACLE");
         EntityManager entityManager = fabrica.createEntityManager();
@@ -21,11 +20,8 @@ public class AtualizarTeste {
         FuncionarioDaoImpl funcionarioDao = new FuncionarioDaoImpl(entityManager);
 
         try {
-            System.out.println("Atualiza o pleno no banco de dados");
-            Pleno pleno = new Pleno(12, "Francesco melhor", "12312312302", "", 24, PLENO, 7500, 33, 0.5);
-            System.out.println(pleno.imprimirInformacoes());
-            System.out.println(pleno.calcularSalario());
-            funcionarioDao.atualizar(pleno);
+            System.out.println("Remover funcionario do banco de dados");
+            funcionarioDao.remover(13);
             funcionarioDao.commit();
 
         } catch (IdNaoEncontradoException e) {
