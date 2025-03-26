@@ -13,23 +13,27 @@ import javax.persistence.Persistence;
 import static br.com.fiap.entity.CargoFuncionario.JUNIOR;
 
 public class Main {
+
+    // Define a URI base
+    public static final String BASE_URI = "http://localhost:8080/myapp/";
+
+    // Método para iniciar o servidor Grizzly
+    public static HttpServer startServer() {
+        // Cria uma configuração de recurso que escaneia o pacote "br.com.farol"
+        final ResourceConfig rc = new ResourceConfig().packages("br.com.farol");
+
+        // Cria e inicia o servidor HTTP Grizzly, expondo a aplicação Jersey
+        return GrizzlyHttpServerFactory.createHttpServer(URI.create(BASE_URI), rc);
+    }
+
     public static void main(String[] args) {
         System.out.println("Teste de persistence!");
-
-        Senior senior = new Senior("Francesco", "36799420870", "", 24, CargoFuncionario.SENIOR, 15000, 30, 1.2);
-        Junior junior = new Junior("Francesco", "12312312303", "", 24, JUNIOR, 3000, 30, 30);
-
-
-        System.out.println(senior.imprimirInformacoes());
-        System.out.println(senior.calcularSalario());
-
-        String querySenior = GeradorSql.gerarSelect(senior);
-
-        System.out.println("Codigo SQL: " + querySenior);
-
-        String queryJunior = GeradorSql.gerarSelect(junior);
-
-        System.out.println("Codigo SQL: " + queryJunior);
+        // Inicia o servidor
+        final HttpServer server = startServer();
+        System.out.printf("Aplicação Jersey iniciada com WADL disponível em %sapplication.wadl%n", BASE_URI);
+        System.out.println("Pressione Enter para parar o servidor...");
+        System.in.read();
+        server.shutdownNow();
 
     }
 }
