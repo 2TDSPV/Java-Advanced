@@ -21,9 +21,9 @@
 
             <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
 
-            <property name="javax.persistence.jdbc.user" value="RM557313"/>
+            <property name="javax.persistence.jdbc.user" value="RM******"/>
 
-            <property name="javax.persistence.jdbc.password" value="220900"/>
+            <property name="javax.persistence.jdbc.password" value="******"/>
 
             <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl"/>
         </properties>
