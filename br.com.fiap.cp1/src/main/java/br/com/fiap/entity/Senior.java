@@ -19,13 +19,17 @@ public class Senior extends Funcionario {
     public Senior() {
     }
 
-    public Senior(int idFuncionario, String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario, int idadeFuncionario, CargoFuncionario cargoFuncionario, double salarioFuncionario, int horasExtra, double bonus) {
-        super(idFuncionario, nomeFuncionario, cpfFuncionario, cnpjFuncionario, idadeFuncionario, cargoFuncionario, salarioFuncionario);
+    public Senior(int idFuncionario, String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario,
+            int idadeFuncionario, CargoFuncionario cargoFuncionario, double salarioFuncionario, int horasExtra,
+            double bonus) {
+        super(idFuncionario, nomeFuncionario, cpfFuncionario, cnpjFuncionario, idadeFuncionario, cargoFuncionario,
+                salarioFuncionario);
         this.horasExtra = horasExtra;
         this.bonus = bonus;
     }
 
-    public Senior(String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario, int idadeFuncionario, CargoFuncionario cargoFuncionario, double salarioFuncionario, int horasExtra, double bonus) {
+    public Senior(String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario, int idadeFuncionario,
+            CargoFuncionario cargoFuncionario, double salarioFuncionario, int horasExtra, double bonus) {
         super(nomeFuncionario, cpfFuncionario, cnpjFuncionario, idadeFuncionario, cargoFuncionario, salarioFuncionario);
         this.horasExtra = horasExtra;
         this.bonus = bonus;

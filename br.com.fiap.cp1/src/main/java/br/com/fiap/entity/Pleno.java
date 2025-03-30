@@ -19,14 +19,18 @@ public class Pleno extends Funcionario {
     public Pleno() {
     }
 
-    public Pleno(String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario, int idadeFuncionario, CargoFuncionario cargoFuncionario, double salarioFuncionario, int qtdCafe, double bonus) {
+    public Pleno(String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario, int idadeFuncionario,
+            CargoFuncionario cargoFuncionario, double salarioFuncionario, int qtdCafe, double bonus) {
         super(nomeFuncionario, cpfFuncionario, cnpjFuncionario, idadeFuncionario, cargoFuncionario, salarioFuncionario);
         this.qtdCafe = qtdCafe;
         this.bonus = bonus;
     }
 
-    public Pleno(int idFuncionario, String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario, int idadeFuncionario, CargoFuncionario cargoFuncionario, double salarioFuncionario, int qtdCafe, double bonus) {
-        super(idFuncionario, nomeFuncionario, cpfFuncionario, cnpjFuncionario, idadeFuncionario, cargoFuncionario, salarioFuncionario);
+    public Pleno(int idFuncionario, String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario,
+            int idadeFuncionario, CargoFuncionario cargoFuncionario, double salarioFuncionario, int qtdCafe,
+            double bonus) {
+        super(idFuncionario, nomeFuncionario, cpfFuncionario, cnpjFuncionario, idadeFuncionario, cargoFuncionario,
+                salarioFuncionario);
         this.qtdCafe = qtdCafe;
         this.bonus = bonus;
     }
@@ -52,4 +56,3 @@ public class Pleno extends Funcionario {
     }
 
 }
-

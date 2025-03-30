@@ -246,3 +246,5 @@ String nomeTabela = tabela.nome();
 ---
 
 E sim, como você bem percebeu, **não é do Hibernate**, então **precisa estar presente em todas as classes** onde você quiser usar o `GeradorSQL`.
+
+

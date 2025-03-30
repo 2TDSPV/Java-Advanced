@@ -19,14 +19,18 @@ public class Junior extends Funcionario {
     public Junior() {
     }
 
-    public Junior(String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario, int idadeFuncionario, CargoFuncionario cargoFuncionario, double salarioFuncionario, int horasExtra, int qtdCafe) {
+    public Junior(String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario, int idadeFuncionario,
+            CargoFuncionario cargoFuncionario, double salarioFuncionario, int horasExtra, int qtdCafe) {
         super(nomeFuncionario, cpfFuncionario, cnpjFuncionario, idadeFuncionario, cargoFuncionario, salarioFuncionario);
         this.horasExtra = horasExtra;
         this.qtdCafe = qtdCafe;
     }
 
-    public Junior(int idFuncionario, String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario, int idadeFuncionario, CargoFuncionario cargoFuncionario, double salarioFuncionario, int horasExtra, int qtdCafe) {
-        super(idFuncionario, nomeFuncionario, cpfFuncionario, cnpjFuncionario, idadeFuncionario, cargoFuncionario, salarioFuncionario);
+    public Junior(int idFuncionario, String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario,
+            int idadeFuncionario, CargoFuncionario cargoFuncionario, double salarioFuncionario, int horasExtra,
+            int qtdCafe) {
+        super(idFuncionario, nomeFuncionario, cpfFuncionario, cnpjFuncionario, idadeFuncionario, cargoFuncionario,
+                salarioFuncionario);
         this.horasExtra = horasExtra;
         this.qtdCafe = qtdCafe;
     }

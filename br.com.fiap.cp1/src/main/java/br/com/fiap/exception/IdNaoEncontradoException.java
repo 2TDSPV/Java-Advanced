@@ -5,4 +5,8 @@ public class IdNaoEncontradoException extends Exception {
     public IdNaoEncontradoException(String message) {
         super(message);
     }
+
+    public IdNaoEncontradoException() {
+        super("ID nonexistent");
+    }
 }

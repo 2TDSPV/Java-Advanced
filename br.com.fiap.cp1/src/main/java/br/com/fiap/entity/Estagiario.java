@@ -12,12 +12,15 @@ public class Estagiario extends Funcionario {
     public Estagiario() {
     }
 
-    public Estagiario(String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario, int idadeFuncionario, CargoFuncionario cargoFuncionario, double salarioFuncionario) {
+    public Estagiario(String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario, int idadeFuncionario,
+            CargoFuncionario cargoFuncionario, double salarioFuncionario) {
         super(nomeFuncionario, cpfFuncionario, cnpjFuncionario, idadeFuncionario, cargoFuncionario, salarioFuncionario);
     }
 
-    public Estagiario(int idFuncionario, String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario, int idadeFuncionario, CargoFuncionario cargoFuncionario, double salarioFuncionario) {
-        super(idFuncionario, nomeFuncionario, cpfFuncionario, cnpjFuncionario, idadeFuncionario, cargoFuncionario, salarioFuncionario);
+    public Estagiario(int idFuncionario, String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario,
+            int idadeFuncionario, CargoFuncionario cargoFuncionario, double salarioFuncionario) {
+        super(idFuncionario, nomeFuncionario, cpfFuncionario, cnpjFuncionario, idadeFuncionario, cargoFuncionario,
+                salarioFuncionario);
     }
 
     @Override
@@ -35,7 +38,7 @@ public class Estagiario extends Funcionario {
                 "idade = " + idadeFuncionario + '\n' +
                 "cargo = " + cargoFuncionario + '\n' +
                 "salario = " + calcularSalario() + '\n' +
-                "Quantidade de café = por enquanto nada" +'\n' +
+                "Quantidade de café = por enquanto nada" + '\n' +
                 "Horas Extra = não deveria" + '\n' +
                 '}';
     }

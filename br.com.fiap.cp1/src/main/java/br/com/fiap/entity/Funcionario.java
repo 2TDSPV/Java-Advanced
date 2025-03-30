@@ -4,7 +4,6 @@ import br.com.fiap.annotation.Tabela;
 
 import javax.persistence.*;
 
-
 @Entity
 @Table(name = "TAB_FUNCIONARIO")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
@@ -38,7 +37,8 @@ public abstract class Funcionario {
     public Funcionario() {
     }
 
-    public Funcionario(String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario, int idadeFuncionario, CargoFuncionario cargoFuncionario, double salarioFuncionario) {
+    public Funcionario(String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario, int idadeFuncionario,
+            CargoFuncionario cargoFuncionario, double salarioFuncionario) {
         this.nomeFuncionario = nomeFuncionario;
         this.cpfFuncionario = cpfFuncionario;
         this.cnpjFuncionario = cnpjFuncionario;
@@ -47,7 +47,8 @@ public abstract class Funcionario {
         this.salarioFuncionario = salarioFuncionario;
     }
 
-    public Funcionario(int idFuncionario, String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario, int idadeFuncionario, CargoFuncionario cargoFuncionario, double salarioFuncionario) {
+    public Funcionario(int idFuncionario, String nomeFuncionario, String cpfFuncionario, String cnpjFuncionario,
+            int idadeFuncionario, CargoFuncionario cargoFuncionario, double salarioFuncionario) {
         this.idFuncionario = idFuncionario;
         this.nomeFuncionario = nomeFuncionario;
         this.cpfFuncionario = cpfFuncionario;

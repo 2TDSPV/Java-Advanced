@@ -54,5 +54,4 @@ public class FuncionarioDaoImpl implements FuncionarioDao {
         }
     }
 
-
 }

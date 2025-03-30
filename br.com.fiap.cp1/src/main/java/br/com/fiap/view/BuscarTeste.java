@@ -20,10 +20,11 @@ public class BuscarTeste {
         FuncionarioDaoImpl funcionarioDao = new FuncionarioDaoImpl(entityManager);
 
         try {
-            Funcionario senior = funcionarioDao.buscarPorId(12);
-            System.out.println(senior.getClass());
-            System.out.println(senior.imprimirInformacoes());
-            System.out.println(senior.calcularSalario());
+            Funcionario funcionaio = funcionarioDao.buscarPorId(23);
+            System.out.println(GeradorSql.gerarSelect(funcionaio));
+            System.out.println(funcionaio.getClass());
+            System.out.println(funcionaio.imprimirInformacoes());
+            System.out.println(funcionaio.calcularSalario());
 
         } catch (IdNaoEncontradoException e) {
             throw new RuntimeException(e);
